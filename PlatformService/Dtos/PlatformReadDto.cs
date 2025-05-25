@@ -1,6 +1,6 @@
-namespace PlatformService.Models;
+namespace PlatformService.Dtos;
 
-public class Platform
+public class PlatformReadDto
 {
     public int Id { get; set; }
     public required string Name { get; set; }

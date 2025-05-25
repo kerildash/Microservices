@@ -34,7 +34,7 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
+        Seed.Populate(app);
        
         app.Run();
     }
